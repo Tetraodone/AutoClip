@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #292929;
+}
+
+.App-link {
+  color: #6441a5;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input{
+  margin:20px
+}
+
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+t1{
+  font-size: 10vh;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.info{
+  margin-bottom: 50px
+}
+
+.sign-in-button{
+  background-color: #6441a5;
+  color:white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding:10px;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+sign-in-button:hover{
+  opacity: 0.8
+}

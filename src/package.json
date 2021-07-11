@@ -1,0 +1,17 @@
+{
+  "name": "autoclip",
+  "productName": "autoclip",
+  "version": "1.0.0",
+  "description": "Simple application to create clips of live streams",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Tetraodone",
+    "url": "https://github.com/Tetraodone"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
