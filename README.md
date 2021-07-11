@@ -31,9 +31,9 @@ To package yourself:
   "client_id": "123456789abcdefg"
 }
 ```
-5. Download Modules
+5. Download Dependencies
 ```bash
-yarn
+yarn install
 ```
 6. Package or Start
 ```bash
