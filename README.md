@@ -1,3 +1,4 @@
+<img src="./assets/icon.png" width="50" />
 ## AutoClip
 <p>
   AutoClip is a simple Electron Application that automatically creates twitch clips of a live broadcaster based off a set interval, or on events such as Subs and Raids
