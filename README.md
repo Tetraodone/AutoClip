@@ -13,7 +13,7 @@
 
 ## Download
 
-Download installer from Releases
+Download installer from <a href="https://github.com/Tetraodone/AutoClip/releases/">Releases</a>
 
 ## Package Yourself
 
